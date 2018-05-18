@@ -1,0 +1,86 @@
+h3
+{
+display:inline-block;
+text-shadow:2px 2px green;
+}
+
+
+#h
+{
+display:inline-block;
+visibility:hidden;
+border:1px solid white;
+padding: 10px;
+animation-name: hanime;
+animation-iteration-count:infinite;
+animation-duration:1s;
+
+}
+
+#o
+{
+display:inline-block;
+visibility:hidden;
+border:1px solid white;
+padding: 10px;
+animation-name: oanime;
+animation-iteration-count:infinite;
+animation-duration:1s;
+
+}
+
+
+#l
+{
+display:inline-block;
+visibility:hidden;
+border:1px solid white;
+padding: 10px;
+animation-name: lanime;
+animation-iteration-count:infinite;
+animation-duration:1s;
+
+}
+
+
+#i
+{
+display:inline-block;
+visibility:hidden;
+border:1px solid white;
+padding: 10px;
+animation-name: ianime;
+animation-iteration-count:infinite;
+animation-duration:1s;
+}
+
+
+@keyframes hanime
+{
+from {background-color:violet;border:1px solid white;visibility:visible;position:absolute;left:0px;top:0px;}
+to {background-color:violet;border:1px solid white;visibility:visible;position:absolute;left:200px;top:200px;}
+}
+
+
+
+@keyframes oanime
+{
+from {background-color:violet;border:1px solid white;visibility:visible;position:absolute;left:0px;top:0px;}
+to {background-color:gold; border:1px solid white;visibility:visible;position:absolute;left:250px;top:200px;}
+}
+
+
+
+@keyframes lanime
+{
+from {background-color:violet;border:1px solid white;visibility:visible;position:absolute;left:0px;top:0px;}
+to {background-color:pink; border:1px solid white;visibility:visible;position:absolute;left:300px;top:200px;}
+}
+
+
+
+@keyframes ianime
+{
+from {background-color:violet;border:1px solid white;visibility:visible;position:absolute;left:0px;top:0px;}
+to {background-color:gold; border:1px solid white;visibility:visible;position:absolute;left:350px;top:200px;}
+}
